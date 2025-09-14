@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grand Palace Hotel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🏨 Grand Palace Hotel</h1>
+    <nav>
+      <a href="#rooms">Rooms</a>
+      <a href="#booking">Booking</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to Grand Palace Hotel</h2>
+    <p>Experience luxury and comfort at affordable prices.</p>
+  </section>
+
+  <section id="rooms">
+    <h2>Our Rooms</h2>
+    <div class="room">
+      <h3>Single Room</h3>
+      <p>Perfect for solo travelers</p>
+      <p class="price">$50 / night</p>
+    </div>
+    <div class="room">
+      <h3>Double Room</h3>
+      <p>Ideal for couples</p>
+      <p class="price">$80 / night</p>
+    </div>
+    <div class="room">
+      <h3>Luxury Suite</h3>
+      <p>Best for families & VIPs</p>
+      <p class="price">$150 / night</p>
+    </div>
+  </section>
+  <section id="booking">
+    <h2>Booking Information</h2>
+    <p>Please contact our front desk to make a reservation.</p>
+    <p>Email: <b>info@grandpalace.com</b></p>
+    <p>Phone: <b>+1 234 567 890</b></p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p> 123 Luxury Street, City, Country</p>
+    <p> +1 234 567 890</p>
+    <p>✉ info@grandpalace.com</p>
+  </section>
+  <footer>
+    <p>© 2025 Grand Palace Hotel. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+style.css :
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f9;
+  color: #333;
+}
+
+header {
+  background: #2c3e50;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background: url('https://picsum.photos/1200/400?hotel') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+#rooms {
+  padding: 20px;
+  text-align: center;
+}
+
+.room {
+  background: white;
+  padding: 15px;
+  margin: 10px auto;
+  border-radius: 8px;
+  max-width: 400px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.price {
+  font-weight: bold;
+  color: #27ae60;
+}
+
+#booking {
+  background: #ecf0f1;
+  padding: 20px;
+  text-align: center;
+}
+
+#contact {
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
